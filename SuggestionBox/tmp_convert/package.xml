@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <name>CustomObject</name>
+    <members>Suggestion__c</members>
+  </types>
+  <types>
+    <name>CustomField</name>
+    <members>Suggestion__c.Implemented_Date__c</members>
+    <members>Suggestion__c.Number_of_Days_Open__c</members>
+    <members>Suggestion__c.Status__c</members>
+    <members>Suggestion__c.Suggestion_Category__c</members>
+    <members>Suggestion__c.Suggestion_Description__c</members>
+  </types>
+  <types>
+    <name>ListView</name>
+    <members>Suggestion__c.All</members>
+  </types>
+  <types>
+    <name>ValidationRule</name>
+    <members>Suggestion__c.Date_in_Range</members>
+  </types>
+  <version>51.0</version>
+</Package>
